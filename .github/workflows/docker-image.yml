@@ -25,6 +25,7 @@ jobs:
       with:
         push: true
         tags:  ${{ secrets.DOCKER_HUB_USERNAME }}/webapi:latest
+        file: ./WebApi/Dockerfile
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
     
