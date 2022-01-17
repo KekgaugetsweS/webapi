@@ -38,6 +38,7 @@ jobs:
           context: .
           push: true
           tags: kekgaugetswe/webapi:latest
+          file: ./Webapi/Dockerfile
         
     
       
