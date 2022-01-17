@@ -24,7 +24,7 @@ jobs:
     
         
     #- name: build image
-      #run: docker build -f ./webapi/Dockerfile  -t webapi:latest .
+      #run: docker build -f Dockerfile  -t webapi:latest .
       
     - name: Login to Docker hub
       uses: docker/login-action@v1
